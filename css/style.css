@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  animation-name: miAnimacion;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes miAnimacion {
+  0% {
+    width: 0%;
+    height: 0%;
+  }
+
+  50% {
+    width: 90%;
+    height: 90%;
+  }
+  75% {
+    width: 85%;
+    height: 85%;
+  }
+  100% {
+    width: 90%;
+    height: 90%;
+  }
+}
